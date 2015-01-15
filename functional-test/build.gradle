@@ -1,0 +1,22 @@
+apply plugin: 'groovy'
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+  jcenter()
+}
+
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all:2.3.7'
+
+  testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
+  testCompile 'com.athaydes:spock-reports:1.1'
+  testCompile "junit:junit:4.11"
+  testCompile "io.appium:java-client:2.0.0"
+}
+
+test {
+  beforeTest { TestDescriptor descriptor ->
+    logger.lifecycle("Running test: ${descriptor.className}::${descriptor.name}" )
+  }
+}

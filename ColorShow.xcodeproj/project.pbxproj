@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		674245C71F022FB9FA2E9AC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674248EE3CE02DEC91CE9B50 /* LaunchScreen.xib */; };
+		674247FD9DECC3A9256ADDF7 /* ColorShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674249E2395107E0486BC752 /* ColorShowTests.swift */; };
+		67424A684682D870E3A5CF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674243AE6C3E616B0DC7CA63 /* Main.storyboard */; };
+		67424C3FFE72227A097B9866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674244D3ACA4FF589A4650EA /* ViewController.swift */; };
+		67424E02FAB99DD007C2082D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67424CAF6429C6BA41F7CED2 /* Images.xcassets */; };
+		67424E35A085A74CD19367D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67424E6C5F65CFAE080C6D42 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67424E405F046CF9EF9E24A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6742489AA011146AC78BE386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67424664905AE72EC5ABFF51;
+			remoteInfo = ColorShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		674244D01B927CD169DAC932 /* ColorShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674244D3ACA4FF589A4650EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67424636F2AFE80384976AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6742483E0978A68CA696F2F7 /* ColorShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674248E33A67784DC0ECDA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67424940E5F686FD8B37FF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		674249E2395107E0486BC752 /* ColorShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorShowTests.swift; sourceTree = "<group>"; };
+		67424A7FFD951DB7A6D34CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		67424CAF6429C6BA41F7CED2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67424E6C5F65CFAE080C6D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		674249F0E0BFD7EEB05222A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67424A4692EF3E85AD6BBB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		674240FE70D2D60033C6ECAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67424636F2AFE80384976AC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6742411BEE168C08E9C1F195 = {
+			isa = PBXGroup;
+			children = (
+				6742490EF77F72C2A0C7DAE8 /* Products */,
+				674245BE2D06AF3A45CB97CF /* ColorShow */,
+				674248DCF61FCF1AEAA6C377 /* ColorShowTests */,
+			);
+			sourceTree = "<group>";
+		};
+		674245BE2D06AF3A45CB97CF /* ColorShow */ = {
+			isa = PBXGroup;
+			children = (
+				674240FE70D2D60033C6ECAC /* Supporting Files */,
+				67424CAF6429C6BA41F7CED2 /* Images.xcassets */,
+				674248EE3CE02DEC91CE9B50 /* LaunchScreen.xib */,
+				67424E6C5F65CFAE080C6D42 /* AppDelegate.swift */,
+				674243AE6C3E616B0DC7CA63 /* Main.storyboard */,
+				674244D3ACA4FF589A4650EA /* ViewController.swift */,
+			);
+			path = ColorShow;
+			sourceTree = "<group>";
+		};
+		674248DCF61FCF1AEAA6C377 /* ColorShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				674249C3515D78A8C0A43ABB /* Supporting Files */,
+				674249E2395107E0486BC752 /* ColorShowTests.swift */,
+			);
+			path = ColorShowTests;
+			sourceTree = "<group>";
+		};
+		6742490EF77F72C2A0C7DAE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6742483E0978A68CA696F2F7 /* ColorShow.app */,
+				674244D01B927CD169DAC932 /* ColorShowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674249C3515D78A8C0A43ABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67424A7FFD951DB7A6D34CF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		674245BB4B37FF98FD434A21 /* ColorShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674244048CA63344A2692557 /* Build configuration list for PBXNativeTarget "ColorShowTests" */;
+			buildPhases = (
+				674243C531C099055C06A302 /* Sources */,
+				67424A4692EF3E85AD6BBB5F /* Frameworks */,
+				67424A6C4BE2349C9B5D6C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67424873C75FE45EDD33D51E /* PBXTargetDependency */,
+			);
+			name = ColorShowTests;
+			productName = ColorShowTests;
+			productReference = 674244D01B927CD169DAC932 /* ColorShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67424664905AE72EC5ABFF51 /* ColorShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674243E7EC9959CBC8CBF3AC /* Build configuration list for PBXNativeTarget "ColorShow" */;
+			buildPhases = (
+				67424E1BA85914740CBF5217 /* Sources */,
+				674249F0E0BFD7EEB05222A7 /* Frameworks */,
+				674243CBF82EDD4F772F35D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorShow;
+			productName = ColorShow;
+			productReference = 6742483E0978A68CA696F2F7 /* ColorShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6742489AA011146AC78BE386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Rahul;
+			};
+			buildConfigurationList = 67424A9E6135CD7AF98E23AD /* Build configuration list for PBXProject "ColorShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6742411BEE168C08E9C1F195;
+			productRefGroup = 6742490EF77F72C2A0C7DAE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67424664905AE72EC5ABFF51 /* ColorShow */,
+				674245BB4B37FF98FD434A21 /* ColorShowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		674243CBF82EDD4F772F35D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67424E02FAB99DD007C2082D /* Images.xcassets in Resources */,
+				674245C71F022FB9FA2E9AC6 /* LaunchScreen.xib in Resources */,
+				67424A684682D870E3A5CF1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67424A6C4BE2349C9B5D6C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		674243C531C099055C06A302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674247FD9DECC3A9256ADDF7 /* ColorShowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67424E1BA85914740CBF5217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67424E35A085A74CD19367D8 /* AppDelegate.swift in Sources */,
+				67424C3FFE72227A097B9866 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67424873C75FE45EDD33D51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67424664905AE72EC5ABFF51 /* ColorShow */;
+			targetProxy = 67424E405F046CF9EF9E24A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		674243AE6C3E616B0DC7CA63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674248E33A67784DC0ECDA61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		674248EE3CE02DEC91CE9B50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67424940E5F686FD8B37FF6E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		674244958D6E35EA65B120AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorShow.app/ColorShow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		674244B34A064286807A1695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6742451262DBA0B234595185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		674249E2EF331FBC1B20E839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorShow.app/ColorShow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		67424E0C5028C5CDC2EC6CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67424F7A62787E2AB25BFEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		674243E7EC9959CBC8CBF3AC /* Build configuration list for PBXNativeTarget "ColorShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674244B34A064286807A1695 /* Debug */,
+				67424E0C5028C5CDC2EC6CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674244048CA63344A2692557 /* Build configuration list for PBXNativeTarget "ColorShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674244958D6E35EA65B120AA /* Debug */,
+				674249E2EF331FBC1B20E839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67424A9E6135CD7AF98E23AD /* Build configuration list for PBXProject "ColorShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67424F7A62787E2AB25BFEE4 /* Debug */,
+				6742451262DBA0B234595185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6742489AA011146AC78BE386 /* Project object */;
+}

@@ -1,0 +1,33 @@
+buildscript {
+  repositories {
+    maven {
+      url('http://openbakery.org/repository/')
+    }
+    mavenCentral()
+  }
+  dependencies {
+    classpath group: 'org.openbakery', name: 'xcodePlugin', version: '0.9.14'
+  }
+}
+
+apply plugin: 'xcode'
+
+def env = System.getenv()
+gradle.taskGraph.whenReady {taskGraph ->
+  if (taskGraph.hasTask(test)) {
+    println "Configuring for test"
+    xcodebuild {
+      sdk = 'iphonesimulator'
+      destination {
+        name = 'iPhone 6'
+      }
+    }
+  }
+}
+
+xcodebuild {
+  target = 'ColorShow'
+  destination {
+    name = 'iPhone 6'
+  }
+}

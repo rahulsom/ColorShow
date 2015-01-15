@@ -1,0 +1,7 @@
+.idea
+build
+functional-test/build
+.gradle
+functional-test/.gradle
+ColorShow.xcodeproj/xcuserdata
+ColorShow.xcodeproj/project.xcworkspace/xcuserdata
